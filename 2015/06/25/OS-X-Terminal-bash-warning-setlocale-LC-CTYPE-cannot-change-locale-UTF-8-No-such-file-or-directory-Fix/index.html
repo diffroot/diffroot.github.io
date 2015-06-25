@@ -24,7 +24,7 @@
 
 
 
-  <meta name="keywords" content="Mac,OS,mtr," />
+  <meta name="keywords" content="Mac,OS X,iterm2,ssh," />
 
 
 
@@ -59,7 +59,7 @@
 
 
 
-  <title> 在Mac OS X中使用mtr诊断路由节点问题 // 闲情雅叙 </title>
+  <title> OS X Terminal: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory Fix // 闲情雅叙 </title>
 </head>
 
 <body>
@@ -188,7 +188,7 @@
           
           
             
-              在Mac OS X中使用mtr诊断路由节点问题
+              OS X Terminal: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory Fix
             
           
         </h1>
@@ -196,14 +196,14 @@
 
       <div class="post-meta">
         <span class="post-time">
-          发表于 2015-06-24
+          发表于 2015-06-25
         </span>
 
         
           <span class="post-category">
             &nbsp; | &nbsp; 分类于
             
-              <a href="/categories/技术/">技术</a>
+              <a href="/categories/Mac/">Mac</a>
 
               
               
@@ -216,8 +216,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2015/06/24/在Mac-OS-X中使用mtr诊断路由节点问题/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/24/在Mac-OS-X中使用mtr诊断路由节点问题/"></span>
+            <a href="/2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/"></span>
             </a>
           </span>
           
@@ -231,24 +231,54 @@
       
 
       
-        <p>这个工具是从阿里云客服那知道的，当时遇到阿里云CDN的一个节点出现丢包问题，用这个工具诊断路由节点问题。</p>
-<p>1.下载地址：<a href="http://rudix.org/packages/mtr.html" target="_blank" rel="external">http://rudix.org/packages/mtr.html</a>（在园子里下载）</p>
-<p>2.下载后运行<code>mtr-0.85-0.pkg</code>进行安装</p>
-<p>3.<code>cd /usr/local/sbin</code> ，就会看mtr文件。</p>
-<p>4.运行mtr出现提示</p>
-<p><code>-bash: mtr: command not found</code>  </p>
-<p><strong>解决方法：</strong><br><code>alias mtr=/usr/local/sbin/mtr</code>  </p>
-<p>5.继续运行mtr出现提示<br><code>mtr: unable to get raw sockets.</code>  </p>
-<p><strong>解决方法：</strong>  </p>
-<pre><code class="bash">sudo chown root mtr
-sudo chmod u+s mtr
-</code></pre>
-<p>6.运行mtr进行诊断  </p>
-<pre><code class="bash">mtr common.cnblogs.com
-</code></pre>
-<p>7.运行结果示例<br><img src="http://images.cnitblog.com/i/1/201404/282130373926332.png" alt="test">  </p>
-<h3 id="【参考资料】">【参考资料】</h3><p><a href="http://www.sdkit.com/2011/11/how-to-install-mtr-on-mac-os-x-lion_22.html" target="_blank" rel="external">How to install MTR on Mac OS X Lion</a></p>
-<p><a href="http://sxpcrazy.com/blog/2011/05/compiling-and-run-mtr-for-mac-os-x-snow-leopard/" target="_blank" rel="external">在 MAC OS X SNOW LEOPARD 下编译和运行 MTR</a></p>
+        <blockquote>
+<p>I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  </p>
+</blockquote>
+<p>app:  </p>
+<blockquote>
+<p>ssh user@server1.cyberciti.biz<br>Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4<br>-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</p>
+</blockquote>
+<p><strong>How do I fix this error?</strong></p>
+<p>This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.<br><a id="more"></a><br><strong>Understanding LC_* environment variables</strong></p>
+<p>Type the following command on remote server to display of all locales supported by Glibc:  </p>
+<blockquote>
+<p>$ locale -a  </p>
+</blockquote>
+<p>Next, type the following command to display settings on your local system (OSX/Unix/Linux based desktop):  </p>
+<blockquote>
+<p>printenv<br>echo “$LC_CTYPE”    </p>
+</blockquote>
+<p>Sample outputs:  </p>
+<blockquote>
+<p>UTF-8  </p>
+</blockquote>
+<p>The above commands display the country and language names, the character encoding used by the locale. Your local ssh client is sending your LC_* environment variables to remote sshd server. In other words, SSH will try to set every LC_* variable you have set on your local OSX system on the remove server too. Here is an example of such problem:<br><img src="http://s0.cyberciti.org/images/faq/2014/03/osx-bash-error.jpg" alt="tu"></p>
+<center>Fig 01: warning setlocale lc_ctype cannot change locale (utf-8)</center>  
+
+<p><strong>Fixing the LC_CTYPE: cannot change locale (UTF-8) error on Linux/OS X</strong></p>
+<p>This can be fixed as follows.</p>
+<p><strong>Method #1: If you are using the Terminal app on OS X</strong><br>If you are using the ‘Terminal’ app then click on</p>
+<blockquote>
+<p>Terminal &gt; Preferences &gt; Select Terminal type such as Basic (default) &gt; Advanced tab1  </p>
+</blockquote>
+<p>Make sure that the ‘Set locale environment variables on startup’ is unchecked as follows:<br><img src="http://s0.cyberciti.org/images/faq/2014/03/osx-terminal-local-settings.jpg" alt="tu">  </p>
+<center>Fig.02: Fixing OS X terminal by unsetting ‘’Set locale environment variables on startup’ check box </center>
+
+<p>You must close all ssh session and relaunch Terminal app.  </p>
+<p><strong>Method #2: Preventing OpenSSH Client from sending the LC_* variables on OS X / Linux / Unix desktop</strong><br>Edit /etc/ssh/ssh_config or /etc/ssh_config file, enter:  </p>
+<blockquote>
+<p>$ sudo vi ~/.ssh/config  </p>
+</blockquote>
+<p>Remove or comment out as follows:</p>
+<blockquote>
+<p>#SendEnv LANG LC_*  </p>
+</blockquote>
+<p>Save and close the file.</p>
+<p><strong><em>Option #3: Install required locale on the remote server</em></strong>  </p>
+<p>Finally, you can fix this problem either installing the desired locale using the localedef command, or consider choosing a different locale in locale/remote system:  </p>
+<blockquote>
+<p># localedef -i en_US -f UTF-8 en_US.UTF-8</p>
+</blockquote>
 
       
     </div>
@@ -259,9 +289,11 @@ sudo chmod u+s mtr
           
             <a href="/tags/Mac/"> #Mac </a>
           
-            <a href="/tags/OS/"> #OS </a>
+            <a href="/tags/OS-X/"> #OS X </a>
           
-            <a href="/tags/mtr/"> #mtr </a>
+            <a href="/tags/iterm2/"> #iterm2 </a>
+          
+            <a href="/tags/ssh/"> #ssh </a>
           
         </div>
       
@@ -270,13 +302,11 @@ sudo chmod u+s mtr
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/06/24/“可怜天下父母心“的出处及解读/">“可怜天下父母心“的出处及解读</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/06/23/兰亭序/">兰亭序</a>
+              <a href="/2015/06/25/古人为何在「姓名」之外还要另取「字」「号」？/">古人为何在「姓名」之外还要另取「字」「号」？</a>
             
           </div>
         </div>
@@ -294,8 +324,8 @@ sudo chmod u+s mtr
     
       <div class="comments" id="comments">
         
-          <div class="ds-thread" data-thread-key="2015/06/24/在Mac-OS-X中使用mtr诊断路由节点问题/"
-               data-title="在Mac OS X中使用mtr诊断路由节点问题" data-url="http://www.diffroot.com/2015/06/24/在Mac-OS-X中使用mtr诊断路由节点问题/">
+          <div class="ds-thread" data-thread-key="2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/"
+               data-title="OS X Terminal: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory Fix" data-url="http://www.diffroot.com/2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/">
           </div>
         
       </div>
@@ -393,7 +423,7 @@ sudo chmod u+s mtr
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#【参考资料】"><span class="nav-number">1.</span> <span class="nav-text">【参考资料】</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>

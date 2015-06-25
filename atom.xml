@@ -5,7 +5,7 @@
   <subtitle><![CDATA[非淡泊无以明志，非宁静无以致远]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.diffroot.com//"/>
-  <updated>2015-06-25T03:33:44.000Z</updated>
+  <updated>2015-06-25T11:48:23.000Z</updated>
   <id>http://www.diffroot.com//</id>
   
   <author>
@@ -14,6 +14,86 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[OS X Terminal: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory Fix]]></title>
+    <link href="http://www.diffroot.com/2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/"/>
+    <id>http://www.diffroot.com/2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/</id>
+    <published>2015-06-25T11:11:16.000Z</published>
+    <updated>2015-06-25T11:48:23.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  </p>
+</blockquote>
+<p>app:  </p>
+<blockquote>
+<p>ssh user@server1.cyberciti.biz<br>Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4<br>-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</p>
+</blockquote>
+<p><strong>How do I fix this error?</strong></p>
+<p>This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.<br><a id="more"></a><br><strong>Understanding LC_* environment variables</strong></p>
+<p>Type the following command on remote server to display of all locales supported by Glibc:  </p>
+<blockquote>
+<p>$ locale -a  </p>
+</blockquote>
+<p>Next, type the following command to display settings on your local system (OSX/Unix/Linux based desktop):  </p>
+<blockquote>
+<p>printenv<br>echo “$LC_CTYPE”    </p>
+</blockquote>
+<p>Sample outputs:  </p>
+<blockquote>
+<p>UTF-8  </p>
+</blockquote>
+<p>The above commands display the country and language names, the character encoding used by the locale. Your local ssh client is sending your LC_* environment variables to remote sshd server. In other words, SSH will try to set every LC_* variable you have set on your local OSX system on the remove server too. Here is an example of such problem:<br><img src="http://s0.cyberciti.org/images/faq/2014/03/osx-bash-error.jpg" alt="tu"></p>
+<center>Fig 01: warning setlocale lc_ctype cannot change locale (utf-8)</center>  
+
+<p><strong>Fixing the LC_CTYPE: cannot change locale (UTF-8) error on Linux/OS X</strong></p>
+<p>This can be fixed as follows.</p>
+<p><strong>Method #1: If you are using the Terminal app on OS X</strong><br>If you are using the ‘Terminal’ app then click on</p>
+<blockquote>
+<p>Terminal &gt; Preferences &gt; Select Terminal type such as Basic (default) &gt; Advanced tab1  </p>
+</blockquote>
+<p>Make sure that the ‘Set locale environment variables on startup’ is unchecked as follows:<br><img src="http://s0.cyberciti.org/images/faq/2014/03/osx-terminal-local-settings.jpg" alt="tu">  </p>
+<center>Fig.02: Fixing OS X terminal by unsetting ‘’Set locale environment variables on startup’ check box </center>
+
+<p>You must close all ssh session and relaunch Terminal app.  </p>
+<p><strong>Method #2: Preventing OpenSSH Client from sending the LC_* variables on OS X / Linux / Unix desktop</strong><br>Edit /etc/ssh/ssh_config or /etc/ssh_config file, enter:  </p>
+<blockquote>
+<p>$ sudo vi ~/.ssh/config  </p>
+</blockquote>
+<p>Remove or comment out as follows:</p>
+<blockquote>
+<p>#SendEnv LANG LC_*  </p>
+</blockquote>
+<p>Save and close the file.</p>
+<p><strong><em>Option #3: Install required locale on the remote server</em></strong>  </p>
+<p>Finally, you can fix this problem either installing the desired locale using the localedef command, or consider choosing a different locale in locale/remote system:  </p>
+<blockquote>
+<p># localedef -i en_US -f UTF-8 en_US.UTF-8</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  </p>
+</blockquote>
+<p>app:  </p>
+<blockquote>
+<p>ssh user@server1.cyberciti.biz<br>Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4<br>-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</p>
+</blockquote>
+<p><strong>How do I fix this error?</strong></p>
+<p>This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.<br>]]>
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://www.diffroot.com/tags/Mac/"/>
+    
+      <category term="OS X" scheme="http://www.diffroot.com/tags/OS-X/"/>
+    
+      <category term="iterm2" scheme="http://www.diffroot.com/tags/iterm2/"/>
+    
+      <category term="ssh" scheme="http://www.diffroot.com/tags/ssh/"/>
+    
+      <category term="Mac" scheme="http://www.diffroot.com/categories/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[古人为何在「姓名」之外还要另取「字」「号」？]]></title>
@@ -70,7 +150,7 @@
     <link href="http://www.diffroot.com/2015/06/24/%E2%80%9C%E5%8F%AF%E6%80%9C%E5%A4%A9%E4%B8%8B%E7%88%B6%E6%AF%8D%E5%BF%83%E2%80%9C%E7%9A%84%E5%87%BA%E5%A4%84%E5%8F%8A%E8%A7%A3%E8%AF%BB/"/>
     <id>http://www.diffroot.com/2015/06/24/“可怜天下父母心“的出处及解读/</id>
     <published>2015-06-24T03:55:56.000Z</published>
-    <updated>2015-06-24T04:01:48.000Z</updated>
+    <updated>2015-06-25T11:34:37.000Z</updated>
     <content type="html"><![CDATA[<p>一说是出自慈禧的诗：慈禧母亲七十大寿的时候，慈禧没有时间去参加母亲的大寿，就让侍臣给母亲送了很多的寿礼，同时，亲笔写了一幅书法，裱好后送去了，这副书法一直保存了几代人，最后毁于文革。原来那是慈禧写给母亲的一首诗：</p>
 <pre><code class="bash">世间爹妈情最真，泪血溶入儿女身。
 
