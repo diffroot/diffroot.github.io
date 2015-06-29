@@ -5,7 +5,7 @@
   <subtitle><![CDATA[非淡泊无以明志，非宁静无以致远]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.diffroot.com//"/>
-  <updated>2015-06-26T10:52:32.000Z</updated>
+  <updated>2015-06-29T13:57:52.000Z</updated>
   <id>http://www.diffroot.com//</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Mac下清空DNS缓存]]></title>
+    <link href="http://www.diffroot.com/2015/06/29/Mac%E4%B8%8B%E6%B8%85%E7%A9%BADNS%E7%BC%93%E5%AD%98/"/>
+    <id>http://www.diffroot.com/2015/06/29/Mac下清空DNS缓存/</id>
+    <published>2015-06-29T13:26:36.000Z</published>
+    <updated>2015-06-29T13:57:52.000Z</updated>
+    <content type="html"><![CDATA[<p>哎，Windows一招ipconfig /flushdns就解决了，想不到Mac下清空缓存这么费劲，虽然也是一条命令，但是根据操作系统的版本不同，命令也不一样，让我的蛋蛋感觉到了一种忧伤：</p>
+<p>Tiger或更低版本 Mac OS：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> lookupd -flushcache</span><br></pre></td></tr></table></figure></p>
+<p>Leopard和Snow Leopard：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> dscacheutil -flushcache</span><br></pre></td></tr></table></figure></p>
+<p>而到了Lion、Mountain Lion和Mavericks：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> killall -HUP mDNSResponder</span><br></pre></td></tr></table></figure></p>
+<p>最后是Yosemite:<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> discoveryutil mdnsflushcache</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>哎，Windows一招ipconfig /flushdns就解决了，想不到Mac下清空缓存这么费劲，虽然也是一条命令，但是根据操作系统的版本不同，命令也不一样，让我的蛋蛋感觉到了一种忧伤：</p>
+<p>Tiger或更低版本 Mac OS：<br><figure class]]>
+    </summary>
+    
+      <category term="dns" scheme="http://www.diffroot.com/tags/dns/"/>
+    
+      <category term="mac" scheme="http://www.diffroot.com/tags/mac/"/>
+    
+      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[了凡四训-序]]></title>
