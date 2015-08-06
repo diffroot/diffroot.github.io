@@ -5,7 +5,7 @@
   <subtitle><![CDATA[非淡泊无以明志，非宁静无以致远]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.diffroot.com//"/>
-  <updated>2015-06-29T13:57:52.000Z</updated>
+  <updated>2015-08-06T02:26:16.000Z</updated>
   <id>http://www.diffroot.com//</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[昨晚上烧烤很爽]]></title>
+    <link href="http://www.diffroot.com/2015/08/06/%E6%98%A8%E6%99%9A%E4%B8%8A%E7%83%A7%E7%83%A4%E5%BE%88%E7%88%BD/"/>
+    <id>http://www.diffroot.com/2015/08/06/昨晚上烧烤很爽/</id>
+    <published>2015-08-06T02:23:34.000Z</published>
+    <updated>2015-08-06T02:26:16.000Z</updated>
+    <content type="html"><![CDATA[<p>感谢项目组昨天晚上的烧烤活动，让大家吃都的很high  </p>
+<p>感谢各位兄弟的努力！  </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>感谢项目组昨天晚上的烧烤活动，让大家吃都的很high  </p>
+<p>感谢各位兄弟的努力！  </p>
+]]>
+    </summary>
+    
+      <category term="-- 烧烤 -- 聚会" scheme="http://www.diffroot.com/tags/%E7%83%A7%E7%83%A4-%E8%81%9A%E4%BC%9A/"/>
+    
+      <category term="-- 生活" scheme="http://www.diffroot.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Mac下清空DNS缓存]]></title>
