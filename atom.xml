@@ -1,233 +1,265 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  
-  <title><![CDATA[闲情雅叙]]></title>
-  <subtitle><![CDATA[非淡泊无以明志，非宁静无以致远]]></subtitle>
+  <title>闲情雅叙</title>
+  <subtitle>非淡泊无以明志，非宁静无以致远</subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.diffroot.com//"/>
+  
+  <link href="http://www.diffroot.com/"/>
   <updated>2015-08-06T02:28:37.000Z</updated>
-  <id>http://www.diffroot.com//</id>
+  <id>http://www.diffroot.com/</id>
   
   <author>
-    <name><![CDATA[DiffRoot]]></name>
+    <name>DiffRoot</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[昨晚上烧烤很爽]]></title>
+    <title>昨晚上烧烤很爽</title>
     <link href="http://www.diffroot.com/2015/08/06/%E6%98%A8%E6%99%9A%E4%B8%8A%E7%83%A7%E7%83%A4%E5%BE%88%E7%88%BD/"/>
     <id>http://www.diffroot.com/2015/08/06/昨晚上烧烤很爽/</id>
     <published>2015-08-06T02:23:34.000Z</published>
     <updated>2015-08-06T02:28:37.000Z</updated>
-    <content type="html"><![CDATA[<p>感谢项目组昨天晚上的烧烤活动，让大家吃都的很high  </p>
-<p>感谢各位兄弟的努力！  </p>
-]]></content>
+    
+    <content type="html">&lt;p&gt;感谢项目组昨天晚上的烧烤活动，让大家吃都的很high  &lt;/p&gt;
+&lt;p&gt;感谢各位兄弟的努力！  &lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>感谢项目组昨天晚上的烧烤活动，让大家吃都的很high  </p>
-<p>感谢各位兄弟的努力！  </p>
-]]>
+    
+      &lt;p&gt;感谢项目组昨天晚上的烧烤活动，让大家吃都的很high  &lt;/p&gt;
+&lt;p&gt;感谢各位兄弟的努力！  &lt;/p&gt;
+
+    
     </summary>
+    
+      <category term="生活" scheme="http://www.diffroot.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
     
       <category term="烧烤" scheme="http://www.diffroot.com/tags/%E7%83%A7%E7%83%A4/"/>
     
       <category term="聚会" scheme="http://www.diffroot.com/tags/%E8%81%9A%E4%BC%9A/"/>
     
-      <category term="生活" scheme="http://www.diffroot.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[Mac下清空DNS缓存]]></title>
+    <title>Mac下清空DNS缓存</title>
     <link href="http://www.diffroot.com/2015/06/29/Mac%E4%B8%8B%E6%B8%85%E7%A9%BADNS%E7%BC%93%E5%AD%98/"/>
     <id>http://www.diffroot.com/2015/06/29/Mac下清空DNS缓存/</id>
     <published>2015-06-29T13:26:36.000Z</published>
     <updated>2015-06-29T13:57:52.000Z</updated>
-    <content type="html"><![CDATA[<p>哎，Windows一招ipconfig /flushdns就解决了，想不到Mac下清空缓存这么费劲，虽然也是一条命令，但是根据操作系统的版本不同，命令也不一样，让我的蛋蛋感觉到了一种忧伤：</p>
-<p>Tiger或更低版本 Mac OS：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> lookupd -flushcache</span><br></pre></td></tr></table></figure></p>
-<p>Leopard和Snow Leopard：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> dscacheutil -flushcache</span><br></pre></td></tr></table></figure></p>
-<p>而到了Lion、Mountain Lion和Mavericks：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> killall -HUP mDNSResponder</span><br></pre></td></tr></table></figure></p>
-<p>最后是Yosemite:<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> discoveryutil mdnsflushcache</span><br></pre></td></tr></table></figure></p>
-]]></content>
+    
+    <content type="html">&lt;p&gt;哎，Windows一招ipconfig /flushdns就解决了，想不到Mac下清空缓存这么费劲，虽然也是一条命令，但是根据操作系统的版本不同，命令也不一样，让我的蛋蛋感觉到了一种忧伤：&lt;/p&gt;
+&lt;p&gt;Tiger或更低版本 Mac OS：&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;sudo&lt;/span&gt; lookupd -flushcache&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Leopard和Snow Leopard：&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;sudo&lt;/span&gt; dscacheutil -flushcache&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;而到了Lion、Mountain Lion和Mavericks：&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;sudo&lt;/span&gt; killall -HUP mDNSResponder&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;最后是Yosemite:&lt;br&gt;&lt;figure class=&quot;highlight mipsasm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo &lt;span class=&quot;keyword&quot;&gt;discoveryutil &lt;/span&gt;mdnsflushcache&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>哎，Windows一招ipconfig /flushdns就解决了，想不到Mac下清空缓存这么费劲，虽然也是一条命令，但是根据操作系统的版本不同，命令也不一样，让我的蛋蛋感觉到了一种忧伤：</p>
-<p>Tiger或更低版本 Mac OS：<br><figure class]]>
+    
+      &lt;p&gt;哎，Windows一招ipconfig /flushdns就解决了，想不到Mac下清空缓存这么费劲，虽然也是一条命令，但是根据操作系统的版本不同，命令也不一样，让我的蛋蛋感觉到了一种忧伤：&lt;/p&gt;
+&lt;p&gt;Tiger或更低版本 Mac OS：&lt;br&gt;&lt;figure class
+    
     </summary>
     
-      <category term="dns" scheme="http://www.diffroot.com/tags/dns/"/>
+      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="mac" scheme="http://www.diffroot.com/tags/mac/"/>
     
-      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="dns" scheme="http://www.diffroot.com/tags/dns/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[了凡四训-序]]></title>
+    <title>了凡四训-序</title>
     <link href="http://www.diffroot.com/2015/06/26/%E4%BA%86%E5%87%A1%E5%9B%9B%E8%AE%AD-%E5%BA%8F/"/>
     <id>http://www.diffroot.com/2015/06/26/了凡四训-序/</id>
     <published>2015-06-26T10:21:27.000Z</published>
     <updated>2015-06-26T10:52:32.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="了凡简介：">了凡简介：</h2><p>袁黄，明吴江人。字坤仪，又字了凡。万历十四年进士。初任宝坻县知事，有政绩，擢兵部主事。黄博学好奇，凡历数、律吕、水利、兵事以及勾股、堪舆、星命之学，无所不窥。律己甚严，行功过格，以纪每日所行善恶。著有《两行斋集》、《历法新书》、《皇都水利》、《群书备考》、《立命论》、《译注八代文综》等。<br><br><br>——————《辞海》商务印书馆1998年版  </p>
-<h2 id="修身至宝：">修身至宝：</h2><p>《了凡四训》————————  </p>
-<p><strong>一位慈父向儿子讲述感人的身心经历</strong>  </p>
-<p><strong>四百年来影响最大的家训宝典</strong>  </p>
-<p><strong>中国古代滋养良知与开启智慧的集成之作</strong>  </p>
-<p><strong>通向儒、道、释殿堂的门径</strong>  </p>
-<p><strong>《老子》、《论语》、《坛经》之后的智者箴言与《太上感应篇》、《安士全书》并称三大善书</strong>  </p>
-<p><strong>文人学士省除内心烦恼的经验之谈</strong>  </p>
-<p><strong>无数仁人志士、高人逸士的启蒙老师</strong>  </p>
-<p><strong>无论入世、出世皆是不可错过的金玉良言</strong>  </p>
-<p><strong>总之，这部书改变了很多人的性格及命运</strong>  </p>
-<p><strong>对现在、未来都是意义重大的医世良药</strong><br><a id="more"></a></p>
-<h2 id="流传概况：">流传概况：</h2><p>&emsp;&emsp;《了凡四训》是袁了凡先生晚年写的四篇训子文。自明末一出，即受士人推崇。晚清曾国藩把它列为子侄必读的第一本书。明国初年，由于印光大师的阐扬倡印，流通日广。白话篇由明初黄智海先生演述。<br>&emsp;&emsp;净空法师也提倡这本书，喻为“救命的一副药”，是人生必看的一本书，对当代人身心健康有极大帮助，实在是一本净化社会风气，稳定社会的好书。著有《了凡四训讲记》，录制有录音带及光盘片，流传世界各地。其弟子组织了“了凡弘法学会”，专门弘扬这本书，以期对社会风气有所改善。<br>&emsp;&emsp;有人还把它誉为“中国古代最伟大的教育学著作”。此书不但流传中国各地，为高层文化人所推崇，被奉为“圣典”，对于现代人精神的困惑和人文的沉沦有着治疗学的意义，对于指导人们安身立命，朔造强健的人格具有极高的价值，而且还流传日本，对日本的政治和经济界产生了深远的影响。  </p>
-]]></content>
+    
+    <content type="html">&lt;p&gt;##了凡简介：&lt;/p&gt;
+&lt;p&gt;袁黄，明吴江人。字坤仪，又字了凡。万历十四年进士。初任宝坻县知事，有政绩，擢兵部主事。黄博学好奇，凡历数、律吕、水利、兵事以及勾股、堪舆、星命之学，无所不窥。律己甚严，行功过格，以纪每日所行善恶。著有《两行斋集》、《历法新书》、《皇都水利》、《群书备考》、《立命论》、《译注八代文综》等。&lt;br&gt;&lt;br&gt;&lt;br&gt;——————《辞海》商务印书馆1998年版  &lt;/p&gt;
+&lt;p&gt;##修身至宝：&lt;br&gt;《了凡四训》————————  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一位慈父向儿子讲述感人的身心经历&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;四百年来影响最大的家训宝典&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中国古代滋养良知与开启智慧的集成之作&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通向儒、道、释殿堂的门径&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;《老子》、《论语》、《坛经》之后的智者箴言与《太上感应篇》、《安士全书》并称三大善书&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文人学士省除内心烦恼的经验之谈&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;无数仁人志士、高人逸士的启蒙老师&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;无论入世、出世皆是不可错过的金玉良言&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总之，这部书改变了很多人的性格及命运&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;对现在、未来都是意义重大的医世良药&lt;/strong&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##流传概况：&lt;br&gt;&amp;emsp;&amp;emsp;《了凡四训》是袁了凡先生晚年写的四篇训子文。自明末一出，即受士人推崇。晚清曾国藩把它列为子侄必读的第一本书。明国初年，由于印光大师的阐扬倡印，流通日广。白话篇由明初黄智海先生演述。&lt;br&gt;&amp;emsp;&amp;emsp;净空法师也提倡这本书，喻为“救命的一副药”，是人生必看的一本书，对当代人身心健康有极大帮助，实在是一本净化社会风气，稳定社会的好书。著有《了凡四训讲记》，录制有录音带及光盘片，流传世界各地。其弟子组织了“了凡弘法学会”，专门弘扬这本书，以期对社会风气有所改善。&lt;br&gt;&amp;emsp;&amp;emsp;有人还把它誉为“中国古代最伟大的教育学著作”。此书不但流传中国各地，为高层文化人所推崇，被奉为“圣典”，对于现代人精神的困惑和人文的沉沦有着治疗学的意义，对于指导人们安身立命，朔造强健的人格具有极高的价值，而且还流传日本，对日本的政治和经济界产生了深远的影响。  &lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<h2 id="了凡简介：">了凡简介：</h2><p>袁黄，明吴江人。字坤仪，又字了凡。万历十四年进士。初任宝坻县知事，有政绩，擢兵部主事。黄博学好奇，凡历数、律吕、水利、兵事以及勾股、堪舆、星命之学，无所不窥。律己甚严，行功过格，以纪每日所行善恶。著有《两行斋集》、《历法新书》、《皇都水利》、《群书备考》、《立命论》、《译注八代文综》等。<br><br/><br>——————《辞海》商务印书馆1998年版  </p>
-<h2 id="修身至宝：">修身至宝：</h2><p>《了凡四训》————————  </p>
-<p><strong>一位慈父向儿子讲述感人的身心经历</strong>  </p>
-<p><strong>四百年来影响最大的家训宝典</strong>  </p>
-<p><strong>中国古代滋养良知与开启智慧的集成之作</strong>  </p>
-<p><strong>通向儒、道、释殿堂的门径</strong>  </p>
-<p><strong>《老子》、《论语》、《坛经》之后的智者箴言与《太上感应篇》、《安士全书》并称三大善书</strong>  </p>
-<p><strong>文人学士省除内心烦恼的经验之谈</strong>  </p>
-<p><strong>无数仁人志士、高人逸士的启蒙老师</strong>  </p>
-<p><strong>无论入世、出世皆是不可错过的金玉良言</strong>  </p>
-<p><strong>总之，这部书改变了很多人的性格及命运</strong>  </p>
-<p><strong>对现在、未来都是意义重大的医世良药</strong><br>]]>
+    
+      &lt;p&gt;##了凡简介：&lt;/p&gt;
+&lt;p&gt;袁黄，明吴江人。字坤仪，又字了凡。万历十四年进士。初任宝坻县知事，有政绩，擢兵部主事。黄博学好奇，凡历数、律吕、水利、兵事以及勾股、堪舆、星命之学，无所不窥。律己甚严，行功过格，以纪每日所行善恶。著有《两行斋集》、《历法新书》、《皇都水利》、《群书备考》、《立命论》、《译注八代文综》等。&lt;br&gt;&lt;br/&gt;&lt;br&gt;——————《辞海》商务印书馆1998年版  &lt;/p&gt;
+&lt;p&gt;##修身至宝：&lt;br&gt;《了凡四训》————————  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一位慈父向儿子讲述感人的身心经历&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;四百年来影响最大的家训宝典&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中国古代滋养良知与开启智慧的集成之作&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通向儒、道、释殿堂的门径&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;《老子》、《论语》、《坛经》之后的智者箴言与《太上感应篇》、《安士全书》并称三大善书&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文人学士省除内心烦恼的经验之谈&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;无数仁人志士、高人逸士的启蒙老师&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;无论入世、出世皆是不可错过的金玉良言&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总之，这部书改变了很多人的性格及命运&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;对现在、未来都是意义重大的医世良药&lt;/strong&gt;&lt;br&gt;
     
     </summary>
+    
+      <category term="了凡四训" scheme="http://www.diffroot.com/categories/%E4%BA%86%E5%87%A1%E5%9B%9B%E8%AE%AD/"/>
+    
+    
+      <category term="袁黄" scheme="http://www.diffroot.com/tags/%E8%A2%81%E9%BB%84/"/>
     
       <category term="了凡" scheme="http://www.diffroot.com/tags/%E4%BA%86%E5%87%A1/"/>
     
       <category term="坤仪" scheme="http://www.diffroot.com/tags/%E5%9D%A4%E4%BB%AA/"/>
     
-      <category term="袁黄" scheme="http://www.diffroot.com/tags/%E8%A2%81%E9%BB%84/"/>
-    
-      <category term="了凡四训" scheme="http://www.diffroot.com/categories/%E4%BA%86%E5%87%A1%E5%9B%9B%E8%AE%AD/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[OS X Terminal: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory Fix]]></title>
+    <title>OS X Terminal: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory Fix</title>
     <link href="http://www.diffroot.com/2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/"/>
     <id>http://www.diffroot.com/2015/06/25/OS-X-Terminal-bash-warning-setlocale-LC-CTYPE-cannot-change-locale-UTF-8-No-such-file-or-directory-Fix/</id>
     <published>2015-06-25T11:11:16.000Z</published>
     <updated>2015-06-25T11:48:23.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  </p>
-</blockquote>
-<p>app:  </p>
-<blockquote>
-<p>ssh user@server1.cyberciti.biz<br>Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4<br>-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</p>
-</blockquote>
-<p><strong>How do I fix this error?</strong></p>
-<p>This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.<br><a id="more"></a><br><strong>Understanding LC_* environment variables</strong></p>
-<p>Type the following command on remote server to display of all locales supported by Glibc:  </p>
-<blockquote>
-<p>$ locale -a  </p>
-</blockquote>
-<p>Next, type the following command to display settings on your local system (OSX/Unix/Linux based desktop):  </p>
-<blockquote>
-<p>printenv<br>echo “$LC_CTYPE”    </p>
-</blockquote>
-<p>Sample outputs:  </p>
-<blockquote>
-<p>UTF-8  </p>
-</blockquote>
-<p>The above commands display the country and language names, the character encoding used by the locale. Your local ssh client is sending your LC_* environment variables to remote sshd server. In other words, SSH will try to set every LC_* variable you have set on your local OSX system on the remove server too. Here is an example of such problem:<br><img src="http://s0.cyberciti.org/images/faq/2014/03/osx-bash-error.jpg" alt="tu"></p>
-<center>Fig 01: warning setlocale lc_ctype cannot change locale (utf-8)</center>  
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;app:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ssh user@server1.cyberciti.biz&lt;br&gt;Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4&lt;br&gt;-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;How do I fix this error?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;strong&gt;Understanding LC_* environment variables&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Type the following command on remote server to display of all locales supported by Glibc:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$ locale -a  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Next, type the following command to display settings on your local system (OSX/Unix/Linux based desktop):  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;printenv&lt;br&gt;echo “$LC_CTYPE”    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sample outputs:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;UTF-8  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The above commands display the country and language names, the character encoding used by the locale. Your local ssh client is sending your LC_* environment variables to remote sshd server. In other words, SSH will try to set every LC_* variable you have set on your local OSX system on the remove server too. Here is an example of such problem:&lt;br&gt;&lt;img src=&quot;http://s0.cyberciti.org/images/faq/2014/03/osx-bash-error.jpg&quot; alt=&quot;tu&quot;&gt;&lt;/p&gt;
+&lt;center&gt;Fig 01: warning setlocale lc_ctype cannot change locale (utf-8)&lt;/center&gt;  
 
-<p><strong>Fixing the LC_CTYPE: cannot change locale (UTF-8) error on Linux/OS X</strong></p>
-<p>This can be fixed as follows.</p>
-<p><strong>Method #1: If you are using the Terminal app on OS X</strong><br>If you are using the ‘Terminal’ app then click on</p>
-<blockquote>
-<p>Terminal &gt; Preferences &gt; Select Terminal type such as Basic (default) &gt; Advanced tab1  </p>
-</blockquote>
-<p>Make sure that the ‘Set locale environment variables on startup’ is unchecked as follows:<br><img src="http://s0.cyberciti.org/images/faq/2014/03/osx-terminal-local-settings.jpg" alt="tu">  </p>
-<center>Fig.02: Fixing OS X terminal by unsetting ‘’Set locale environment variables on startup’ check box </center>
+&lt;p&gt;&lt;strong&gt;Fixing the LC_CTYPE: cannot change locale (UTF-8) error on Linux/OS X&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This can be fixed as follows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Method #1: If you are using the Terminal app on OS X&lt;/strong&gt;&lt;br&gt;If you are using the ‘Terminal’ app then click on&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Terminal &amp;gt; Preferences &amp;gt; Select Terminal type such as Basic (default) &amp;gt; Advanced tab1  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Make sure that the ‘Set locale environment variables on startup’ is unchecked as follows:&lt;br&gt;&lt;img src=&quot;http://s0.cyberciti.org/images/faq/2014/03/osx-terminal-local-settings.jpg&quot; alt=&quot;tu&quot;&gt;  &lt;/p&gt;
+&lt;center&gt;Fig.02: Fixing OS X terminal by unsetting ‘’Set locale environment variables on startup’ check box &lt;/center&gt;
 
-<p>You must close all ssh session and relaunch Terminal app.  </p>
-<p><strong>Method #2: Preventing OpenSSH Client from sending the LC_* variables on OS X / Linux / Unix desktop</strong><br>Edit /etc/ssh/ssh_config or /etc/ssh_config file, enter:  </p>
-<blockquote>
-<p>$ sudo vi ~/.ssh/config  </p>
-</blockquote>
-<p>Remove or comment out as follows:</p>
-<blockquote>
-<p>#SendEnv LANG LC_*  </p>
-</blockquote>
-<p>Save and close the file.</p>
-<p><strong><em>Option #3: Install required locale on the remote server</em></strong>  </p>
-<p>Finally, you can fix this problem either installing the desired locale using the localedef command, or consider choosing a different locale in locale/remote system:  </p>
-<blockquote>
-<p># localedef -i en_US -f UTF-8 en_US.UTF-8</p>
-</blockquote>
-]]></content>
+&lt;p&gt;You must close all ssh session and relaunch Terminal app.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Method #2: Preventing OpenSSH Client from sending the LC_* variables on OS X / Linux / Unix desktop&lt;/strong&gt;&lt;br&gt;Edit /etc/ssh/ssh_config or /etc/ssh_config file, enter:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$ sudo vi ~/.ssh/config  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Remove or comment out as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;#SendEnv LANG LC_*  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Save and close the file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Option #3: Install required locale on the remote server&lt;/em&gt;&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Finally, you can fix this problem either installing the desired locale using the localedef command, or consider choosing a different locale in locale/remote system:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;# localedef -i en_US -f UTF-8 en_US.UTF-8&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<blockquote>
-<p>I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  </p>
-</blockquote>
-<p>app:  </p>
-<blockquote>
-<p>ssh user@server1.cyberciti.biz<br>Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4<br>-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</p>
-</blockquote>
-<p><strong>How do I fix this error?</strong></p>
-<p>This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.<br>]]>
+    
+      &lt;blockquote&gt;
+&lt;p&gt;I’m a new Apple OS X Mabbook user. I am getting an error which read as follows when I connect to any remote Linux/Unix/BSD server or machine through OS X ssh Terminal  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;app:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ssh user@server1.cyberciti.biz&lt;br&gt;Last login: Wed Mar 26 08:45:36 2014 from 1.2.3.4&lt;br&gt;-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;How do I fix this error?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This warning or error is part of both OpenSSH server and OS X ssh terminal client issue. It can be fixed using various methods.&lt;br&gt;
     
     </summary>
     
-      <category term="Mac" scheme="http://www.diffroot.com/tags/Mac/"/>
+      <category term="Mac" scheme="http://www.diffroot.com/categories/Mac/"/>
     
-      <category term="OS X" scheme="http://www.diffroot.com/tags/OS-X/"/>
+    
+      <category term="Mac" scheme="http://www.diffroot.com/tags/Mac/"/>
     
       <category term="iterm2" scheme="http://www.diffroot.com/tags/iterm2/"/>
     
-      <category term="ssh" scheme="http://www.diffroot.com/tags/ssh/"/>
+      <category term="OS X" scheme="http://www.diffroot.com/tags/OS-X/"/>
     
-      <category term="Mac" scheme="http://www.diffroot.com/categories/Mac/"/>
+      <category term="ssh" scheme="http://www.diffroot.com/tags/ssh/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[古人为何在「姓名」之外还要另取「字」「号」？]]></title>
+    <title>古人为何在「姓名」之外还要另取「字」「号」？</title>
     <link href="http://www.diffroot.com/2015/06/25/%E5%8F%A4%E4%BA%BA%E4%B8%BA%E4%BD%95%E5%9C%A8%E3%80%8C%E5%A7%93%E5%90%8D%E3%80%8D%E4%B9%8B%E5%A4%96%E8%BF%98%E8%A6%81%E5%8F%A6%E5%8F%96%E3%80%8C%E5%AD%97%E3%80%8D%E3%80%8C%E5%8F%B7%E3%80%8D%EF%BC%9F/"/>
     <id>http://www.diffroot.com/2015/06/25/古人为何在「姓名」之外还要另取「字」「号」？/</id>
     <published>2015-06-25T03:14:16.000Z</published>
     <updated>2015-06-25T03:33:44.000Z</updated>
-    <content type="html"><![CDATA[<p>在中国古代，姓、氏、名、字是四种截然不同的东西，直到近代，才归类为「姓氏」和「名字」两个单元。</p>
-<h2 id="姓氏">姓氏</h2><p>从最早的母系氏族说起，每个部族都有着共同的女祖先。这时成年女子要留在本氏族，与其他氏族的同辈男子实行群婚。而男子则要前往外氏族，和别的女性生育后代。在这种社会关系之中，子女往往只知其母而不知其父，也就只能随母取姓。在古姓之中，不少都有「女」字旁，比如：姜、姬、嬴等等。这些都是族姓，「姓」是旧有的族号。</p>
-<p>随着人口的扩大，一个部族自然分成不同的支系，并且逐渐独立。此时为了加以区分，每个支系会为自己设立另外的称号，这就是「氏」的来源。例如，商族人祖先姓子，后来才分出殷、来、宋等氏。氏的来源多样，可以来源自祖先的称号，例如轩辕。可以来源于祖先的职业，例如巫、陶。此外还有很多来源，不再一一列举。<br><a id="more"></a><br>姓的历史比氏悠久，并在社会变迁中逐渐被氏取代，并呈现出一定的阶级特征。《通志·氏族略序》中提到「贵者有氏，贱者有名无氏」，例如「司马、司徒」就是脱胎于官位的氏，「文、景、武」是多发源于祖先谥号的氏，「鲁、楚、秦」是来自生活地点的氏，往往「氏」不是贫贱之人可以有的。</p>
-<p>在周朝之前，姓和氏分治不同的功能。男女之间，姓同氏不同，不能通婚。而姓不同氏同，则可以通婚。先秦时期，只有贵族才能使用姓氏，比如「庖丁」就是名叫丁的厨子，公输班叫「鲁班」却不姓「鲁」，只是「鲁国的班」。到了秦汉时期，姓与氏才逐渐统一成一个东西，发挥同样的社会作用，也走入寻常百姓家了。</p>
-<p>值得一提的是，对于女性而言，姓氏比名字更重要。出嫁以前，在姓之前加上「孟、伯、季」等排行作称呼。出嫁以后，在姓前加以所出身的国名，比如「齐、秦、鲁」。称呼妇女的时候，也往往在其姓的后面加上一个「氏」字，比如我们耳熟能详的「张氏、王氏、徐氏」。这类体制，后世多有演变，但在先秦时期业已形成。</p>
-<h2 id="名字">名字</h2><p>名和字的区别在很多文献上写得明白，如《礼记·檀弓上》所言「幼名，冠字」，人在出生的时候无名无字，出生三个月之后，会起名字，这就是「幼名」。而在成年之后，行冠礼，则「冠而字之」，可以走入社会了。《礼记·士冠礼》中有言「冠而字之，敬其名也。君父之前称名，他人则称字也。」也就是说，一个人在成年之后，长辈们起的「名」就不适宜在社交场合直接称呼了，得取一个供平辈、晚辈人称呼的新叫法，就有了「字」。</p>
-<p>「字」是男女皆有的，不是男性独占。《红楼梦》第三回中，贾宝玉问黛玉「妹妹尊名」，黛玉说了名字。但宝玉问「表字如何」的时候，林黛玉说「无字」。这是因为黛玉年龄未到十五岁，又没有婚配，就没有自己的「字」。《礼记·内则》中说「女子十有五年而笄」，这是说女子的成人礼在十五岁，之后就可以嫁人了。在这个时候，就有了自己的「字」。所谓的「待字闺中」，就是来源于此。</p>
-<p>「字」可以是一个字，也可以是两个字，但以双字者居多，更长的少见。比如屈原，名平字原，就是单字。岳飞，名飞字鹏举，就是双字。取字的方法有很多，但一定要与「名」有所关联，《颜氏家训·风操》有言「名以正体，字以表德」，正是此意。可以取近义，也可以进行一些比喻延伸，甚至可以反义相对，方法多多，在此就不赘述了。</p>
-<h2 id="别号">别号</h2><p>「别号」又称「别字」，简称「号」。字数不限，王安石号「半山」，范蠡号「陶朱公」，苏轼号「东坡居士」，都可以。有些时候以故乡、官职称呼别人，也是「别号」的一种，比如王维为「王右丞」，柳宗元为「柳河东」等等。</p>
-<p>帝王、士大夫有的「谥号」、「庙号」，也都是「别号」的一种。例如，范仲淹的「范文正公」，「齐桓公」、「楚庄公」等等。</p>
-<p>一般来说，一个人可以有无数个「别号」，只要自己乐意，起多少都可以，自己随意掌握。</p>
-<h2 id="传统用法">传统用法</h2><p>拿我自己为例，我姓徐，名博闻，字俊葵，号紫阁。（只是举例，现在社会不必拘泥如此）</p>
-<p>「名」是长辈来叫的，一切血缘长辈，都可以之呼「博闻」。自称、卑称时，也可以用名字。平辈之间，如果关系非常亲近，在私下也可以直接称名。特别注意的是，在尊长之前，一切的自称都要用「名」，而不能用「字」或「号」。《出师表》的第一句，就是「臣亮言」，所以如果给谦卑写信，只能用「晚辈博闻」如何如何开头，别的都是失礼。</p>
-<p>在与一般的同辈、晚辈的交往之中，对方必须称呼我的「字」，如果直接叫「名」，就是冒犯。「直呼其名」、「指名道姓」一直都不是什么褒义词，就是从这里来的。比如同学之间，都应该称呼「俊葵」，而不得直呼「博闻」，这是一种对对方的尊重。而上司、领导与我对话的时候，虽然道义上讲是可以直接呼「名」，但一般也是以「字」相呼，表示客气与尊敬。刘备称呼诸葛亮，也都是叫「军师」，如果直呼其名，必然是有情绪在里面，也是一种不尊重。</p>
-<p>至于「号」，就多在文人雅士之间相互使用，用来自称也非常方便。现在还有不少朋友，习惯叫我「紫阁」，而不叫「博闻」。这种情况，即便放在古代，也是十分恰当的。</p>
-<p>但是对于历史人物而言，他最广为人知的称呼，可能是「名」，也可能是「字」，也可能是「号」。估计是哪个顺口好记，就容易流传。比如郑板桥本名郑燮，字克柔，号板桥道人。板桥好记好认，说郑燮、郑克柔是谁，认知率就低了。齐白石名纯芝，号白石山人，就以白石传世。苏轼字子瞻，号东坡居士，现在也多叫苏东坡，还有东坡肘子流传。诸如此类，不一而足。</p>
-<p>总而言之，「字」是古代知识分子之间最常用的称呼，而「名」、「号」的使用范围都比较狭窄。这体现一种人与人之间的尊重，《柳南随笔》有言「古人敬其名，则未有不称字者」，此言得之。</p>
-<p>（有些朋友问我的字「俊葵」和名「博闻」有什么关系，正如「名以正体，字以表德」所说，都是描述人格品行的词语。博闻取「博闻强记」，俊葵则取葵花的比喻义，诗句很多，举三例「倾阳一点丹心在，承得中天雨露多」、「黄花冷淡无人看，独自倾心向太阳」、「绛脸有情争向日，锦苞无语细含风」。名说见识，字讲品格，先人的期许，大致如此。）</p>
-<h2 id="总结">总结</h2><p>现今社会习惯已经有了诸多改变，但对一个人的称呼，依旧是人们需要好好斟酌的事情。对人名的称呼是否得体，往往决定了第一印象如何。尤其在中国，有多少人会对长辈、上司直呼其名呢？</p>
-<p>称呼一个人的方式，往往带着褒贬色彩。对于曹操，我们可以叫「曹操」、「曹公」、「孟德」、「魏公」、「阿瞒」、「阿瞒小儿」等等，每一种带有不同的感情色彩，十分有趣。也正是因此，在对人称呼的时候，才需要格外注意。</p>
-<p>一个小小的名字，可以决定的事情很多。给下一代起名字，怎么称呼别人的名字，对古人的名字怎么解读，都是可以大做文章的事情。「姓氏」和「名字」的演变，是与中国文化千年来的发展息息相关的，这里面值得挖掘的内容还很多，但知乎答案篇幅有限，在这里权当抛砖引玉。</p>
-<p>感谢阅读。<br><br>  </p>
-<blockquote>
-<p>—招录自 <code>徐博聞</code>在<code>知乎：&lt;http://www.zhihu.com/question/21925461</code>  </p>
-</blockquote>
-<p><br><br>参考文献：<br>【1】袁庭栋.古人称谓.四川教育出版社,1994.</p>
-]]></content>
+    
+    <content type="html">&lt;p&gt;在中国古代，姓、氏、名、字是四种截然不同的东西，直到近代，才归类为「姓氏」和「名字」两个单元。&lt;/p&gt;
+&lt;p&gt;##姓氏&lt;/p&gt;
+&lt;p&gt;从最早的母系氏族说起，每个部族都有着共同的女祖先。这时成年女子要留在本氏族，与其他氏族的同辈男子实行群婚。而男子则要前往外氏族，和别的女性生育后代。在这种社会关系之中，子女往往只知其母而不知其父，也就只能随母取姓。在古姓之中，不少都有「女」字旁，比如：姜、姬、嬴等等。这些都是族姓，「姓」是旧有的族号。&lt;/p&gt;
+&lt;p&gt;随着人口的扩大，一个部族自然分成不同的支系，并且逐渐独立。此时为了加以区分，每个支系会为自己设立另外的称号，这就是「氏」的来源。例如，商族人祖先姓子，后来才分出殷、来、宋等氏。氏的来源多样，可以来源自祖先的称号，例如轩辕。可以来源于祖先的职业，例如巫、陶。此外还有很多来源，不再一一列举。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;姓的历史比氏悠久，并在社会变迁中逐渐被氏取代，并呈现出一定的阶级特征。《通志·氏族略序》中提到「贵者有氏，贱者有名无氏」，例如「司马、司徒」就是脱胎于官位的氏，「文、景、武」是多发源于祖先谥号的氏，「鲁、楚、秦」是来自生活地点的氏，往往「氏」不是贫贱之人可以有的。&lt;/p&gt;
+&lt;p&gt;在周朝之前，姓和氏分治不同的功能。男女之间，姓同氏不同，不能通婚。而姓不同氏同，则可以通婚。先秦时期，只有贵族才能使用姓氏，比如「庖丁」就是名叫丁的厨子，公输班叫「鲁班」却不姓「鲁」，只是「鲁国的班」。到了秦汉时期，姓与氏才逐渐统一成一个东西，发挥同样的社会作用，也走入寻常百姓家了。&lt;/p&gt;
+&lt;p&gt;值得一提的是，对于女性而言，姓氏比名字更重要。出嫁以前，在姓之前加上「孟、伯、季」等排行作称呼。出嫁以后，在姓前加以所出身的国名，比如「齐、秦、鲁」。称呼妇女的时候，也往往在其姓的后面加上一个「氏」字，比如我们耳熟能详的「张氏、王氏、徐氏」。这类体制，后世多有演变，但在先秦时期业已形成。&lt;/p&gt;
+&lt;p&gt;##名字&lt;/p&gt;
+&lt;p&gt;名和字的区别在很多文献上写得明白，如《礼记·檀弓上》所言「幼名，冠字」，人在出生的时候无名无字，出生三个月之后，会起名字，这就是「幼名」。而在成年之后，行冠礼，则「冠而字之」，可以走入社会了。《礼记·士冠礼》中有言「冠而字之，敬其名也。君父之前称名，他人则称字也。」也就是说，一个人在成年之后，长辈们起的「名」就不适宜在社交场合直接称呼了，得取一个供平辈、晚辈人称呼的新叫法，就有了「字」。&lt;/p&gt;
+&lt;p&gt;「字」是男女皆有的，不是男性独占。《红楼梦》第三回中，贾宝玉问黛玉「妹妹尊名」，黛玉说了名字。但宝玉问「表字如何」的时候，林黛玉说「无字」。这是因为黛玉年龄未到十五岁，又没有婚配，就没有自己的「字」。《礼记·内则》中说「女子十有五年而笄」，这是说女子的成人礼在十五岁，之后就可以嫁人了。在这个时候，就有了自己的「字」。所谓的「待字闺中」，就是来源于此。&lt;/p&gt;
+&lt;p&gt;「字」可以是一个字，也可以是两个字，但以双字者居多，更长的少见。比如屈原，名平字原，就是单字。岳飞，名飞字鹏举，就是双字。取字的方法有很多，但一定要与「名」有所关联，《颜氏家训·风操》有言「名以正体，字以表德」，正是此意。可以取近义，也可以进行一些比喻延伸，甚至可以反义相对，方法多多，在此就不赘述了。&lt;/p&gt;
+&lt;p&gt;##别号&lt;/p&gt;
+&lt;p&gt;「别号」又称「别字」，简称「号」。字数不限，王安石号「半山」，范蠡号「陶朱公」，苏轼号「东坡居士」，都可以。有些时候以故乡、官职称呼别人，也是「别号」的一种，比如王维为「王右丞」，柳宗元为「柳河东」等等。&lt;/p&gt;
+&lt;p&gt;帝王、士大夫有的「谥号」、「庙号」，也都是「别号」的一种。例如，范仲淹的「范文正公」，「齐桓公」、「楚庄公」等等。&lt;/p&gt;
+&lt;p&gt;一般来说，一个人可以有无数个「别号」，只要自己乐意，起多少都可以，自己随意掌握。&lt;/p&gt;
+&lt;p&gt;##传统用法&lt;/p&gt;
+&lt;p&gt;拿我自己为例，我姓徐，名博闻，字俊葵，号紫阁。（只是举例，现在社会不必拘泥如此）&lt;/p&gt;
+&lt;p&gt;「名」是长辈来叫的，一切血缘长辈，都可以之呼「博闻」。自称、卑称时，也可以用名字。平辈之间，如果关系非常亲近，在私下也可以直接称名。特别注意的是，在尊长之前，一切的自称都要用「名」，而不能用「字」或「号」。《出师表》的第一句，就是「臣亮言」，所以如果给谦卑写信，只能用「晚辈博闻」如何如何开头，别的都是失礼。&lt;/p&gt;
+&lt;p&gt;在与一般的同辈、晚辈的交往之中，对方必须称呼我的「字」，如果直接叫「名」，就是冒犯。「直呼其名」、「指名道姓」一直都不是什么褒义词，就是从这里来的。比如同学之间，都应该称呼「俊葵」，而不得直呼「博闻」，这是一种对对方的尊重。而上司、领导与我对话的时候，虽然道义上讲是可以直接呼「名」，但一般也是以「字」相呼，表示客气与尊敬。刘备称呼诸葛亮，也都是叫「军师」，如果直呼其名，必然是有情绪在里面，也是一种不尊重。&lt;/p&gt;
+&lt;p&gt;至于「号」，就多在文人雅士之间相互使用，用来自称也非常方便。现在还有不少朋友，习惯叫我「紫阁」，而不叫「博闻」。这种情况，即便放在古代，也是十分恰当的。&lt;/p&gt;
+&lt;p&gt;但是对于历史人物而言，他最广为人知的称呼，可能是「名」，也可能是「字」，也可能是「号」。估计是哪个顺口好记，就容易流传。比如郑板桥本名郑燮，字克柔，号板桥道人。板桥好记好认，说郑燮、郑克柔是谁，认知率就低了。齐白石名纯芝，号白石山人，就以白石传世。苏轼字子瞻，号东坡居士，现在也多叫苏东坡，还有东坡肘子流传。诸如此类，不一而足。&lt;/p&gt;
+&lt;p&gt;总而言之，「字」是古代知识分子之间最常用的称呼，而「名」、「号」的使用范围都比较狭窄。这体现一种人与人之间的尊重，《柳南随笔》有言「古人敬其名，则未有不称字者」，此言得之。&lt;/p&gt;
+&lt;p&gt;（有些朋友问我的字「俊葵」和名「博闻」有什么关系，正如「名以正体，字以表德」所说，都是描述人格品行的词语。博闻取「博闻强记」，俊葵则取葵花的比喻义，诗句很多，举三例「倾阳一点丹心在，承得中天雨露多」、「黄花冷淡无人看，独自倾心向太阳」、「绛脸有情争向日，锦苞无语细含风」。名说见识，字讲品格，先人的期许，大致如此。）&lt;/p&gt;
+&lt;p&gt;##总结&lt;/p&gt;
+&lt;p&gt;现今社会习惯已经有了诸多改变，但对一个人的称呼，依旧是人们需要好好斟酌的事情。对人名的称呼是否得体，往往决定了第一印象如何。尤其在中国，有多少人会对长辈、上司直呼其名呢？&lt;/p&gt;
+&lt;p&gt;称呼一个人的方式，往往带着褒贬色彩。对于曹操，我们可以叫「曹操」、「曹公」、「孟德」、「魏公」、「阿瞒」、「阿瞒小儿」等等，每一种带有不同的感情色彩，十分有趣。也正是因此，在对人称呼的时候，才需要格外注意。&lt;/p&gt;
+&lt;p&gt;一个小小的名字，可以决定的事情很多。给下一代起名字，怎么称呼别人的名字，对古人的名字怎么解读，都是可以大做文章的事情。「姓氏」和「名字」的演变，是与中国文化千年来的发展息息相关的，这里面值得挖掘的内容还很多，但知乎答案篇幅有限，在这里权当抛砖引玉。&lt;/p&gt;
+&lt;p&gt;感谢阅读。&lt;br&gt;&lt;br&gt;  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;–招录自 &lt;code&gt;徐博聞&lt;/code&gt;在&lt;code&gt;知乎：&amp;lt;http://www.zhihu.com/question/21925461&lt;/code&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;参考文献：&lt;br&gt;【1】袁庭栋.古人称谓.四川教育出版社,1994.&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>在中国古代，姓、氏、名、字是四种截然不同的东西，直到近代，才归类为「姓氏」和「名字」两个单元。</p>
-<h2 id="姓氏">姓氏</h2><p>从最早的母系氏族说起，每个部族都有着共同的女祖先。这时成年女子要留在本氏族，与其他氏族的同辈男子实行群婚。而男子则要前往外氏族，和别的女性生育后代。在这种社会关系之中，子女往往只知其母而不知其父，也就只能随母取姓。在古姓之中，不少都有「女」字旁，比如：姜、姬、嬴等等。这些都是族姓，「姓」是旧有的族号。</p>
-<p>随着人口的扩大，一个部族自然分成不同的支系，并且逐渐独立。此时为了加以区分，每个支系会为自己设立另外的称号，这就是「氏」的来源。例如，商族人祖先姓子，后来才分出殷、来、宋等氏。氏的来源多样，可以来源自祖先的称号，例如轩辕。可以来源于祖先的职业，例如巫、陶。此外还有很多来源，不再一一列举。<br>]]>
+    
+      &lt;p&gt;在中国古代，姓、氏、名、字是四种截然不同的东西，直到近代，才归类为「姓氏」和「名字」两个单元。&lt;/p&gt;
+&lt;p&gt;##姓氏&lt;/p&gt;
+&lt;p&gt;从最早的母系氏族说起，每个部族都有着共同的女祖先。这时成年女子要留在本氏族，与其他氏族的同辈男子实行群婚。而男子则要前往外氏族，和别的女性生育后代。在这种社会关系之中，子女往往只知其母而不知其父，也就只能随母取姓。在古姓之中，不少都有「女」字旁，比如：姜、姬、嬴等等。这些都是族姓，「姓」是旧有的族号。&lt;/p&gt;
+&lt;p&gt;随着人口的扩大，一个部族自然分成不同的支系，并且逐渐独立。此时为了加以区分，每个支系会为自己设立另外的称号，这就是「氏」的来源。例如，商族人祖先姓子，后来才分出殷、来、宋等氏。氏的来源多样，可以来源自祖先的称号，例如轩辕。可以来源于祖先的职业，例如巫、陶。此外还有很多来源，不再一一列举。&lt;br&gt;
     
     </summary>
+    
+      <category term="收集" scheme="http://www.diffroot.com/categories/%E6%94%B6%E9%9B%86/"/>
+    
     
       <category term="古人" scheme="http://www.diffroot.com/tags/%E5%8F%A4%E4%BA%BA/"/>
     
@@ -235,23 +267,22 @@
     
       <category term="字号" scheme="http://www.diffroot.com/tags/%E5%AD%97%E5%8F%B7/"/>
     
-      <category term="收集" scheme="http://www.diffroot.com/categories/%E6%94%B6%E9%9B%86/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[“可怜天下父母心“的出处及解读]]></title>
+    <title>“可怜天下父母心“的出处及解读</title>
     <link href="http://www.diffroot.com/2015/06/24/%E2%80%9C%E5%8F%AF%E6%80%9C%E5%A4%A9%E4%B8%8B%E7%88%B6%E6%AF%8D%E5%BF%83%E2%80%9C%E7%9A%84%E5%87%BA%E5%A4%84%E5%8F%8A%E8%A7%A3%E8%AF%BB/"/>
     <id>http://www.diffroot.com/2015/06/24/“可怜天下父母心“的出处及解读/</id>
     <published>2015-06-24T03:55:56.000Z</published>
     <updated>2015-06-25T11:34:37.000Z</updated>
-    <content type="html"><![CDATA[<p>一说是出自慈禧的诗：慈禧母亲七十大寿的时候，慈禧没有时间去参加母亲的大寿，就让侍臣给母亲送了很多的寿礼，同时，亲笔写了一幅书法，裱好后送去了，这副书法一直保存了几代人，最后毁于文革。原来那是慈禧写给母亲的一首诗：</p>
-<pre><code class="bash">世间爹妈情最真，泪血溶入儿女身。
+    
+    <content type="html">&lt;p&gt;一说是出自慈禧的诗：慈禧母亲七十大寿的时候，慈禧没有时间去参加母亲的大寿，就让侍臣给母亲送了很多的寿礼，同时，亲笔写了一幅书法，裱好后送去了，这副书法一直保存了几代人，最后毁于文革。原来那是慈禧写给母亲的一首诗：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;世间爹妈情最真，泪血溶入儿女身。
 
 殚竭心力终为子，可怜天下父母心！
-</code></pre>
-<p>另一说是出自白居易的《长恨歌》：“……一朝选在君王侧，六宫粉黛无颜色。 可怜天下父母心，不重生男重生女……”<br><a id="more"></a></p>
-<pre><code class="bash">《长恨歌》原文：
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;另一说是出自白居易的《长恨歌》：“……一朝选在君王侧，六宫粉黛无颜色。 可怜天下父母心，不重生男重生女……”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;《长恨歌》原文：
 
 汉皇重色思倾国，御宇多年求不得。
 
@@ -372,218 +403,257 @@
 在天愿作比翼鸟，在地愿为连理枝。
 
 天长地久有时尽，此恨绵绵无绝期。
-</code></pre>
-<p>“可怜天下父母心”我认为可以有两种理解：<br>1.慈禧 “可怜天下父母心”诗中的“可”是值得、应该的意思；“怜”是珍惜、赞叹的意思。诗人表示天下父母的仁爱之心值得赞叹！  </p>
-<p>2.“可怜天下父母心”还可以理解为：天下父母无怨无悔地为子女付出、担忧着急的苦心不能被子女理解，甚至会被误会而令人同情和叹惜。我本人即作此理解。</p>
-<p>虽然许多人对“可怜天下父母心”这句话耳熟能详，然而，又有谁真正懂得它的深刻内涵呢。可能只有自己做了父母之后才会慢慢体会到当中的辛苦吧。我们中国人作为父母，把一身所有的时间与精力都放在了孩子的身上。可以这么说，从这个孩子降临人世的那一天起，父母对其的操心就一直会陪伴自己终身。哎，中国人，真是“可怜天下父母心”啊！</p>
-]]></content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“可怜天下父母心”我认为可以有两种理解：&lt;br&gt;1.慈禧 “可怜天下父母心”诗中的“可”是值得、应该的意思；“怜”是珍惜、赞叹的意思。诗人表示天下父母的仁爱之心值得赞叹！  &lt;/p&gt;
+&lt;p&gt;2.“可怜天下父母心”还可以理解为：天下父母无怨无悔地为子女付出、担忧着急的苦心不能被子女理解，甚至会被误会而令人同情和叹惜。我本人即作此理解。&lt;/p&gt;
+&lt;p&gt;虽然许多人对“可怜天下父母心”这句话耳熟能详，然而，又有谁真正懂得它的深刻内涵呢。可能只有自己做了父母之后才会慢慢体会到当中的辛苦吧。我们中国人作为父母，把一身所有的时间与精力都放在了孩子的身上。可以这么说，从这个孩子降临人世的那一天起，父母对其的操心就一直会陪伴自己终身。哎，中国人，真是“可怜天下父母心”啊！&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>一说是出自慈禧的诗：慈禧母亲七十大寿的时候，慈禧没有时间去参加母亲的大寿，就让侍臣给母亲送了很多的寿礼，同时，亲笔写了一幅书法，裱好后送去了，这副书法一直保存了几代人，最后毁于文革。原来那是慈禧写给母亲的一首诗：</p>
-<pre><code class="bash">世间爹妈情最真，泪血溶入儿女身。
+    
+      &lt;p&gt;一说是出自慈禧的诗：慈禧母亲七十大寿的时候，慈禧没有时间去参加母亲的大寿，就让侍臣给母亲送了很多的寿礼，同时，亲笔写了一幅书法，裱好后送去了，这副书法一直保存了几代人，最后毁于文革。原来那是慈禧写给母亲的一首诗：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;世间爹妈情最真，泪血溶入儿女身。
 
 殚竭心力终为子，可怜天下父母心！
-</code></pre>
-<p>另一说是出自白居易的《长恨歌》：“……一朝选在君王侧，六宫粉黛无颜色。 可怜天下父母心，不重生男重生女……”<br>]]>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;另一说是出自白居易的《长恨歌》：“……一朝选在君王侧，六宫粉黛无颜色。 可怜天下父母心，不重生男重生女……”&lt;br&gt;
     
     </summary>
     
-      <category term="可怜天下父母心" scheme="http://www.diffroot.com/tags/%E5%8F%AF%E6%80%9C%E5%A4%A9%E4%B8%8B%E7%88%B6%E6%AF%8D%E5%BF%83/"/>
-    
       <category term="生活" scheme="http://www.diffroot.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="可怜天下父母心" scheme="http://www.diffroot.com/tags/%E5%8F%AF%E6%80%9C%E5%A4%A9%E4%B8%8B%E7%88%B6%E6%AF%8D%E5%BF%83/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[在Mac OS X中使用mtr诊断路由节点问题]]></title>
+    <title>在Mac OS X中使用mtr诊断路由节点问题</title>
     <link href="http://www.diffroot.com/2015/06/24/%E5%9C%A8Mac-OS-X%E4%B8%AD%E4%BD%BF%E7%94%A8mtr%E8%AF%8A%E6%96%AD%E8%B7%AF%E7%94%B1%E8%8A%82%E7%82%B9%E9%97%AE%E9%A2%98/"/>
     <id>http://www.diffroot.com/2015/06/24/在Mac-OS-X中使用mtr诊断路由节点问题/</id>
     <published>2015-06-24T02:51:56.000Z</published>
     <updated>2015-06-24T03:01:57.000Z</updated>
-    <content type="html"><![CDATA[<p>这个工具是从阿里云客服那知道的，当时遇到阿里云CDN的一个节点出现丢包问题，用这个工具诊断路由节点问题。</p>
-<p>1.下载地址：<a href="http://rudix.org/packages/mtr.html" target="_blank" rel="external">http://rudix.org/packages/mtr.html</a>（在园子里下载）</p>
-<p>2.下载后运行<code>mtr-0.85-0.pkg</code>进行安装</p>
-<p>3.<code>cd /usr/local/sbin</code> ，就会看mtr文件。</p>
-<p>4.运行mtr出现提示</p>
-<p><code>-bash: mtr: command not found</code>  </p>
-<p><strong>解决方法：</strong><br><code>alias mtr=/usr/local/sbin/mtr</code>  </p>
-<p>5.继续运行mtr出现提示<br><code>mtr: unable to get raw sockets.</code>  </p>
-<p><strong>解决方法：</strong>  </p>
-<pre><code class="bash">sudo chown root mtr
+    
+    <content type="html">&lt;p&gt;这个工具是从阿里云客服那知道的，当时遇到阿里云CDN的一个节点出现丢包问题，用这个工具诊断路由节点问题。&lt;/p&gt;
+&lt;p&gt;1.下载地址：&lt;a href=&quot;http://rudix.org/packages/mtr.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://rudix.org/packages/mtr.html&lt;/a&gt;（在园子里下载）&lt;/p&gt;
+&lt;p&gt;2.下载后运行&lt;code&gt;mtr-0.85-0.pkg&lt;/code&gt;进行安装&lt;/p&gt;
+&lt;p&gt;3.&lt;code&gt;cd /usr/local/sbin&lt;/code&gt; ，就会看mtr文件。&lt;/p&gt;
+&lt;p&gt;4.运行mtr出现提示&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-bash: mtr: command not found&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决方法：&lt;/strong&gt;&lt;br&gt;&lt;code&gt;alias mtr=/usr/local/sbin/mtr&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;5.继续运行mtr出现提示&lt;br&gt;&lt;code&gt;mtr: unable to get raw sockets.&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决方法：&lt;/strong&gt;  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo chown root mtr
 sudo chmod u+s mtr
-</code></pre>
-<p>6.运行mtr进行诊断  </p>
-<pre><code class="bash">mtr common.cnblogs.com
-</code></pre>
-<p>7.运行结果示例<br><img src="http://images.cnitblog.com/i/1/201404/282130373926332.png" alt="test">  </p>
-<h3 id="【参考资料】">【参考资料】</h3><p><a href="http://www.sdkit.com/2011/11/how-to-install-mtr-on-mac-os-x-lion_22.html" target="_blank" rel="external">How to install MTR on Mac OS X Lion</a></p>
-<p><a href="http://sxpcrazy.com/blog/2011/05/compiling-and-run-mtr-for-mac-os-x-snow-leopard/" target="_blank" rel="external">在 MAC OS X SNOW LEOPARD 下编译和运行 MTR</a></p>
-]]></content>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;6.运行mtr进行诊断  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;mtr common.cnblogs.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;7.运行结果示例&lt;br&gt;&lt;img src=&quot;http://images.cnitblog.com/i/1/201404/282130373926332.png&quot; alt=&quot;test&quot;&gt;  &lt;/p&gt;
+&lt;p&gt;###【参考资料】  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sdkit.com/2011/11/how-to-install-mtr-on-mac-os-x-lion_22.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to install MTR on Mac OS X Lion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://sxpcrazy.com/blog/2011/05/compiling-and-run-mtr-for-mac-os-x-snow-leopard/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;在 MAC OS X SNOW LEOPARD 下编译和运行 MTR&lt;/a&gt;&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>这个工具是从阿里云客服那知道的，当时遇到阿里云CDN的一个节点出现丢包问题，用这个工具诊断路由节点问题。</p>
-<p>1.下载地址：<a href="http://rudix.org/packages/mtr.html" target="_blank" rel="exte]]>
+    
+      &lt;p&gt;这个工具是从阿里云客服那知道的，当时遇到阿里云CDN的一个节点出现丢包问题，用这个工具诊断路由节点问题。&lt;/p&gt;
+&lt;p&gt;1.下载地址：&lt;a href=&quot;http://rudix.org/packages/mtr.html&quot; target=&quot;_blank&quot; rel=&quot;exte
+    
     </summary>
+    
+      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="mtr" scheme="http://www.diffroot.com/tags/mtr/"/>
     
       <category term="Mac" scheme="http://www.diffroot.com/tags/Mac/"/>
     
       <category term="OS" scheme="http://www.diffroot.com/tags/OS/"/>
     
-      <category term="mtr" scheme="http://www.diffroot.com/tags/mtr/"/>
-    
-      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[兰亭序]]></title>
+    <title>兰亭序</title>
     <link href="http://www.diffroot.com/2015/06/23/%E5%85%B0%E4%BA%AD%E5%BA%8F/"/>
     <id>http://www.diffroot.com/2015/06/23/兰亭序/</id>
     <published>2015-06-23T15:33:20.000Z</published>
     <updated>2015-06-24T02:33:45.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="简体中文">简体中文</h2><blockquote>
-<p>&emsp;&emsp;永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭。修禊事也，群贤毕至，少长咸集。此地有崇山峻岭、茂林修竹，又有清流急湍，映带左右，引以为流觞曲水。列坐其次，虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。<br>&emsp;&emsp;是日也，天朗气清、惠风和畅，仰观宇宙之大，俯察品类之盛，所以游目聘怀，足以极视听之娱，信可乐也！<br>&emsp;&emsp;夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外；虽趣舍万殊，静噪不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。<br>&emsp;&emsp;及其所之既倦，情随事迁，感概系之矣！向之所欣，俯仰之间，以为陈然，犹不能不以之兴怀，况修短随化、终期于尽。古人云：死生亦大矣，岂不痛哉！<br>&emsp;&emsp;每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。固知一死生为虚诞，齐彭殇为妄作。后之视今，亦由今之视昔。悲夫！古列叙时人，录其所述，虽世殊事异，所以兴怀，其致一也，后之览者，亦将有感于斯文！  </p>
-</blockquote>
-<a id="more"></a>
-<h2 id="译文">译文</h2><blockquote>
-<p>&emsp;&emsp;永和九年，正值癸丑，暮春三月上旬的巳日，我们在会稽郡山阴县的兰亭集会，举行禊饮之事。此地德高望重者无不到会，老少济济一堂。兰亭这地方有崇山峻岭环抱，林木繁茂，竹篁幽密。又有清澈湍急的溪流，如同青罗带一般映衬在左右，引溪水为曲水流觞，列坐其侧，即使没有管弦合奏的盛况，只是饮酒赋诗，也足以令人畅叙胸怀。<br>&emsp;&emsp;这一天，晴明爽朗，和风习习，仰首可以观览浩大的宇宙，俯身可以考察众多的物类，纵目游赏，胸襟大开，极尽耳目视听的欢娱，真可以说是人生的一大乐事。<br>&emsp;&emsp;人们彼此亲近交往，俯仰之间便度过了一生。有的人喜欢反躬内省，满足于一室之内的晤谈；有的人则寄托于外物，生活狂放不羁。虽然他们或内或外的取舍千差万别，好静好动的性格各不相同，但当他们遇到可喜的事情，得意于一时，感到欣然自足时，竟然都会忘记衰老即将要到来之事。<br>&emsp;&emsp;等到对已获取的东西发生厌倦，情事变迁，又不免会引发无限的感慨。以往所得到的欢欣，很快就成为历史的陈迹，人们对此尚且不能不为之感念伤怀，更何况人的一生长短取决于造化，而终究要归结于穷尽呢！古人说：“死生是件大事。”这怎么能不让人痛心啊！<br>&emsp;&emsp;每当看到前人所发的感慨，其缘由竟像一张符契那样一致，总难免要在前人的文章面前嗟叹一番，不过心里却弄不明白这是怎么回事。我当然知道把死和生混为一谈是虚诞的，把长寿与夭亡等量齐观是荒谬的，后人看待今人，也就像今人看待前人，这正是事情的可悲之处。所以我要列出到会者的姓名，录下他们所作的诗篇。尽管时代有别，行事各异，但触发人们情怀的动因，无疑会是相通的。后人阅读这些诗篇，恐怕也会由此引发同样的感慨吧。 </p>
-</blockquote>
-<h2 id="繁體中文">繁體中文</h2><blockquote>
-<p>&emsp;&emsp;永和九年，歲在癸丑，暮春之初，會于會稽山陰之蘭亭，脩褉事也。群賢畢至，少長咸集。此地有崇山峻嶺，茂林脩竹，又有清流激湍，映帶左右，引以為流觴曲水，列坐其次。雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情。<br>&emsp;&emsp;是日也，天朗氣清，惠風和暢，仰觀宇宙之大，府察品類之盛，所以遊日騁懷，足以極視聽之娛，信可樂也。<br>&emsp;&emsp;夫人之相與，俯仰一世，或取諸懷抱，悟言一室之內，或因寄所託，放浪形骸之外。雖趣舍萬殊，靜躁不角，當其欣於所遇，暫得於己，快然自足，不知老之將至。<br>&emsp;&emsp;及其所之既惓，情隨事遷，感慨係之矣。向之所欣，俛仰之間，已為陳?，猶不能不以之興懷。況脩短隨化，終期於盡。古人云，死生亦大矣，豈不痛哉！<br>&emsp;&emsp;每覽昔人興感之由，若合一契，未嘗不臨文嗟悼，不能喻之於懷。固知一死生為虛誕，齊彭殤為妄作，後之視今，亦猶今之視昔，悲夫！故列敘時人，錄其所述，雖世殊事異，所以興懷，其致一也。後之儿覽者，亦將有感於斯文。  </p>
-</blockquote>
-<h2 id="譯文">譯文</h2><blockquote>
-<p>&emsp;&emsp;東晉穆帝永和九年（西元三五三年），歲次癸丑，農曆三月初，為了舉行修褉之典，大家在會稽山陰的蘭亭聚會，賢達之士都到齊了，年輕的，年長的全都聚於此。這裡有高山峻嶺，茂密的樹林，修長的竹子，又有清澈而湍急的水流，流水環繞，波光映照，把水引成環曲的小渠，將酒杯放在紆曲的水面上，任其漂流，酒杯止於何處，就由坐在一旁的人取飲，大家依次坐在曲流旁飲酒雖然沒有好聽的音樂助興，可是一面飲酒一面吟詩，也足夠暢暢快快地抒發幽雅的情懷。<br>&emsp;&emsp;這一天，天清氣朗，空氣清新，吹著溫和的風，倍覺舒服暢快。抬頭可以看到寬廣的天地；低頭可以感到萬物的繁盛。觀賞景物開暢胸懷，足夠讓耳目得到最高的享受，實在是一件愉快的事。<br>&emsp;&emsp;世上的人相處，在一輩子當中，有些人把心中的抱負，在一室之內對知己傾訴；有此人因個人的興趣而寄託情懷，便放蕩逍遙，以追求生活規範以外的自性與快樂。他們雖然志趣不同，靜動有異，但當他們喜歡上某種情境時，卻能暫時感受到心靈上的快意，愉悅地感到滿足，不知年歲即將老去。<br>&emsp;&emsp;等到興趣一過，對所追求的事物感到厭倦時，心情便隨著環境的改變而變化，感慨也跟著來了。先前所喜歡的，轉眼間已成為過往陳跡，光是這種對事物的厭倦就能使人感慨不止，更何況是面對生命的無常呢？生命有長有短那是造化的安排，但最後的結果都不免於死亡。古人說：死與生都是大事，怎能不令人深感痛心！<br>&emsp;&emsp;每次看到古人作品感慨的緣由，與我感歎的相符合時（都是為世事無常，人生苦短而感歎），沒有不對著這此文章而歎息悲傷，心裡卻不明白這是為什麼。這才知道把死與生看成一樣的說法是虛妄荒誕的。把長壽的人和短命的人看成沒有分別是胡言亂語的。後人看現在，也如同現在人看過去一樣，唉！真是可悲啊！所以我就列敘了當時一起集會的人，錄下他們所作的詩，即使將來時代不同，世事有差別，但詩人們抒發情懷的方式都是一樣的。後世讀我這篇文章的人，對這些詩文也會產生一番感慨吧！</p>
-</blockquote>
-]]></content>
+    
+    <content type="html">&lt;p&gt;##简体中文  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭。修禊事也，群贤毕至，少长咸集。此地有崇山峻岭、茂林修竹，又有清流急湍，映带左右，引以为流觞曲水。列坐其次，虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。&lt;br&gt;&amp;emsp;&amp;emsp;是日也，天朗气清、惠风和畅，仰观宇宙之大，俯察品类之盛，所以游目聘怀，足以极视听之娱，信可乐也！&lt;br&gt;&amp;emsp;&amp;emsp;夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外；虽趣舍万殊，静噪不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。&lt;br&gt;&amp;emsp;&amp;emsp;及其所之既倦，情随事迁，感概系之矣！向之所欣，俯仰之间，以为陈然，犹不能不以之兴怀，况修短随化、终期于尽。古人云：死生亦大矣，岂不痛哉！&lt;br&gt;&amp;emsp;&amp;emsp;每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。固知一死生为虚诞，齐彭殇为妄作。后之视今，亦由今之视昔。悲夫！古列叙时人，录其所述，虽世殊事异，所以兴怀，其致一也，后之览者，亦将有感于斯文！  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;##译文&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;永和九年，正值癸丑，暮春三月上旬的巳日，我们在会稽郡山阴县的兰亭集会，举行禊饮之事。此地德高望重者无不到会，老少济济一堂。兰亭这地方有崇山峻岭环抱，林木繁茂，竹篁幽密。又有清澈湍急的溪流，如同青罗带一般映衬在左右，引溪水为曲水流觞，列坐其侧，即使没有管弦合奏的盛况，只是饮酒赋诗，也足以令人畅叙胸怀。&lt;br&gt;&amp;emsp;&amp;emsp;这一天，晴明爽朗，和风习习，仰首可以观览浩大的宇宙，俯身可以考察众多的物类，纵目游赏，胸襟大开，极尽耳目视听的欢娱，真可以说是人生的一大乐事。&lt;br&gt;&amp;emsp;&amp;emsp;人们彼此亲近交往，俯仰之间便度过了一生。有的人喜欢反躬内省，满足于一室之内的晤谈；有的人则寄托于外物，生活狂放不羁。虽然他们或内或外的取舍千差万别，好静好动的性格各不相同，但当他们遇到可喜的事情，得意于一时，感到欣然自足时，竟然都会忘记衰老即将要到来之事。&lt;br&gt;&amp;emsp;&amp;emsp;等到对已获取的东西发生厌倦，情事变迁，又不免会引发无限的感慨。以往所得到的欢欣，很快就成为历史的陈迹，人们对此尚且不能不为之感念伤怀，更何况人的一生长短取决于造化，而终究要归结于穷尽呢！古人说：“死生是件大事。”这怎么能不让人痛心啊！&lt;br&gt;&amp;emsp;&amp;emsp;每当看到前人所发的感慨，其缘由竟像一张符契那样一致，总难免要在前人的文章面前嗟叹一番，不过心里却弄不明白这是怎么回事。我当然知道把死和生混为一谈是虚诞的，把长寿与夭亡等量齐观是荒谬的，后人看待今人，也就像今人看待前人，这正是事情的可悲之处。所以我要列出到会者的姓名，录下他们所作的诗篇。尽管时代有别，行事各异，但触发人们情怀的动因，无疑会是相通的。后人阅读这些诗篇，恐怕也会由此引发同样的感慨吧。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;##繁體中文  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;永和九年，歲在癸丑，暮春之初，會于會稽山陰之蘭亭，脩褉事也。群賢畢至，少長咸集。此地有崇山峻嶺，茂林脩竹，又有清流激湍，映帶左右，引以為流觴曲水，列坐其次。雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情。&lt;br&gt;&amp;emsp;&amp;emsp;是日也，天朗氣清，惠風和暢，仰觀宇宙之大，府察品類之盛，所以遊日騁懷，足以極視聽之娛，信可樂也。&lt;br&gt;&amp;emsp;&amp;emsp;夫人之相與，俯仰一世，或取諸懷抱，悟言一室之內，或因寄所託，放浪形骸之外。雖趣舍萬殊，靜躁不角，當其欣於所遇，暫得於己，快然自足，不知老之將至。&lt;br&gt;&amp;emsp;&amp;emsp;及其所之既惓，情隨事遷，感慨係之矣。向之所欣，俛仰之間，已為陳?，猶不能不以之興懷。況脩短隨化，終期於盡。古人云，死生亦大矣，豈不痛哉！&lt;br&gt;&amp;emsp;&amp;emsp;每覽昔人興感之由，若合一契，未嘗不臨文嗟悼，不能喻之於懷。固知一死生為虛誕，齊彭殤為妄作，後之視今，亦猶今之視昔，悲夫！故列敘時人，錄其所述，雖世殊事異，所以興懷，其致一也。後之儿覽者，亦將有感於斯文。  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;##譯文  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;東晉穆帝永和九年（西元三五三年），歲次癸丑，農曆三月初，為了舉行修褉之典，大家在會稽山陰的蘭亭聚會，賢達之士都到齊了，年輕的，年長的全都聚於此。這裡有高山峻嶺，茂密的樹林，修長的竹子，又有清澈而湍急的水流，流水環繞，波光映照，把水引成環曲的小渠，將酒杯放在紆曲的水面上，任其漂流，酒杯止於何處，就由坐在一旁的人取飲，大家依次坐在曲流旁飲酒雖然沒有好聽的音樂助興，可是一面飲酒一面吟詩，也足夠暢暢快快地抒發幽雅的情懷。&lt;br&gt;&amp;emsp;&amp;emsp;這一天，天清氣朗，空氣清新，吹著溫和的風，倍覺舒服暢快。抬頭可以看到寬廣的天地；低頭可以感到萬物的繁盛。觀賞景物開暢胸懷，足夠讓耳目得到最高的享受，實在是一件愉快的事。&lt;br&gt;&amp;emsp;&amp;emsp;世上的人相處，在一輩子當中，有些人把心中的抱負，在一室之內對知己傾訴；有此人因個人的興趣而寄託情懷，便放蕩逍遙，以追求生活規範以外的自性與快樂。他們雖然志趣不同，靜動有異，但當他們喜歡上某種情境時，卻能暫時感受到心靈上的快意，愉悅地感到滿足，不知年歲即將老去。&lt;br&gt;&amp;emsp;&amp;emsp;等到興趣一過，對所追求的事物感到厭倦時，心情便隨著環境的改變而變化，感慨也跟著來了。先前所喜歡的，轉眼間已成為過往陳跡，光是這種對事物的厭倦就能使人感慨不止，更何況是面對生命的無常呢？生命有長有短那是造化的安排，但最後的結果都不免於死亡。古人說：死與生都是大事，怎能不令人深感痛心！&lt;br&gt;&amp;emsp;&amp;emsp;每次看到古人作品感慨的緣由，與我感歎的相符合時（都是為世事無常，人生苦短而感歎），沒有不對著這此文章而歎息悲傷，心裡卻不明白這是為什麼。這才知道把死與生看成一樣的說法是虛妄荒誕的。把長壽的人和短命的人看成沒有分別是胡言亂語的。後人看現在，也如同現在人看過去一樣，唉！真是可悲啊！所以我就列敘了當時一起集會的人，錄下他們所作的詩，即使將來時代不同，世事有差別，但詩人們抒發情懷的方式都是一樣的。後世讀我這篇文章的人，對這些詩文也會產生一番感慨吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<h2 id="简体中文">简体中文</h2><blockquote>
-<p>&emsp;&emsp;永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭。修禊事也，群贤毕至，少长咸集。此地有崇山峻岭、茂林修竹，又有清流急湍，映带左右，引以为流觞曲水。列坐其次，虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。<br>&emsp;&emsp;是日也，天朗气清、惠风和畅，仰观宇宙之大，俯察品类之盛，所以游目聘怀，足以极视听之娱，信可乐也！<br>&emsp;&emsp;夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外；虽趣舍万殊，静噪不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。<br>&emsp;&emsp;及其所之既倦，情随事迁，感概系之矣！向之所欣，俯仰之间，以为陈然，犹不能不以之兴怀，况修短随化、终期于尽。古人云：死生亦大矣，岂不痛哉！<br>&emsp;&emsp;每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。固知一死生为虚诞，齐彭殇为妄作。后之视今，亦由今之视昔。悲夫！古列叙时人，录其所述，虽世殊事异，所以兴怀，其致一也，后之览者，亦将有感于斯文！  </p>
-</blockquote>]]>
+    
+      &lt;p&gt;##简体中文  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭。修禊事也，群贤毕至，少长咸集。此地有崇山峻岭、茂林修竹，又有清流急湍，映带左右，引以为流觞曲水。列坐其次，虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。&lt;br&gt;&amp;emsp;&amp;emsp;是日也，天朗气清、惠风和畅，仰观宇宙之大，俯察品类之盛，所以游目聘怀，足以极视听之娱，信可乐也！&lt;br&gt;&amp;emsp;&amp;emsp;夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外；虽趣舍万殊，静噪不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。&lt;br&gt;&amp;emsp;&amp;emsp;及其所之既倦，情随事迁，感概系之矣！向之所欣，俯仰之间，以为陈然，犹不能不以之兴怀，况修短随化、终期于尽。古人云：死生亦大矣，岂不痛哉！&lt;br&gt;&amp;emsp;&amp;emsp;每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。固知一死生为虚诞，齐彭殇为妄作。后之视今，亦由今之视昔。悲夫！古列叙时人，录其所述，虽世殊事异，所以兴怀，其致一也，后之览者，亦将有感于斯文！  &lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
-      <category term="碑文" scheme="http://www.diffroot.com/tags/%E7%A2%91%E6%96%87/"/>
+      <category term="收集" scheme="http://www.diffroot.com/categories/%E6%94%B6%E9%9B%86/"/>
+    
     
       <category term="诗歌" scheme="http://www.diffroot.com/tags/%E8%AF%97%E6%AD%8C/"/>
     
       <category term="诗经" scheme="http://www.diffroot.com/tags/%E8%AF%97%E7%BB%8F/"/>
     
-      <category term="收集" scheme="http://www.diffroot.com/categories/%E6%94%B6%E9%9B%86/"/>
+      <category term="碑文" scheme="http://www.diffroot.com/tags/%E7%A2%91%E6%96%87/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[Markdown参考文献]]></title>
+    <title>Markdown参考文献</title>
     <link href="http://www.diffroot.com/2015/06/23/Markdown%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/"/>
     <id>http://www.diffroot.com/2015/06/23/Markdown参考文献/</id>
     <published>2015-06-23T11:20:19.000Z</published>
     <updated>2015-06-23T11:36:29.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p><strong>鉴于对Markdown的不熟悉，以后协作中要大量用到这些，所以先标记一下这些参考文献的出处以便随时查询。</strong>  </p>
-</blockquote>
-<ol>
-<li><a href="http://lutaf.com/markdown-simple-usage.htm" target="_blank" rel="external">Markdown 简明语法</a>  </li>
-<li><a href="http://www.ituring.com.cn/article/3452" target="_blank" rel="external">Markdown之表格的处理</a>  </li>
-<li><a href="http://jianshu.io/p/q81RER" target="_blank" rel="external">献给写作者的 Markdown 新手指南</a>  </li>
-<li><a href="http://www.zybuluo.com/mdeditor" target="_blank" rel="external">Cmd Markdown 编辑阅读器</a>  </li>
-<li><a href="http://www.ituring.com.cn/article/504" target="_blank" rel="external">Markdown语法说明（详解版）</a>  </li>
-<li><a href="http://www.ituring.com.cn/article/23" target="_blank" rel="external">怎样使用Markdown</a>  </li>
-<li><a href="http://jianshu.io/p/PpDNMG" target="_blank" rel="external">Markdown写作浅谈</a>  </li>
-<li><a href="http://equation85.github.io/blog/markdown-examples" target="_blank" rel="external">Markdown语法示例</a>  </li>
-<li><a href="http://tool.oschina.net/commons?type=2" target="_blank" rel="external">HTML转义字符对照表</a>  </li>
-<li><a href="http://wowubuntu.com/markdown" target="_blank" rel="external">Markdown 语法说明(简体中文版)</a>  </li>
-</ol>
-]]></content>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;鉴于对Markdown的不熟悉，以后协作中要大量用到这些，所以先标记一下这些参考文献的出处以便随时查询。&lt;/strong&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://lutaf.com/markdown-simple-usage.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown 简明语法&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ituring.com.cn/article/3452&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown之表格的处理&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jianshu.io/p/q81RER&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;献给写作者的 Markdown 新手指南&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zybuluo.com/mdeditor&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cmd Markdown 编辑阅读器&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ituring.com.cn/article/504&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown语法说明（详解版）&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ituring.com.cn/article/23&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;怎样使用Markdown&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jianshu.io/p/PpDNMG&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown写作浅谈&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://equation85.github.io/blog/markdown-examples&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown语法示例&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://tool.oschina.net/commons?type=2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML转义字符对照表&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wowubuntu.com/markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown 语法说明(简体中文版)&lt;/a&gt;  &lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<blockquote>
-<p><strong>鉴于对Markdown的不熟悉，以后协作中要大量用到这些，所以先标记一下这些参考文献的出处以便随时查询。</strong>  </p>
-</blockquote>
-<ol>
-<li><a href="http://lutaf.com]]>
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;鉴于对Markdown的不熟悉，以后协作中要大量用到这些，所以先标记一下这些参考文献的出处以便随时查询。&lt;/strong&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://lutaf.com
+    
     </summary>
+    
+      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="markdown" scheme="http://www.diffroot.com/tags/markdown/"/>
     
       <category term="syntax" scheme="http://www.diffroot.com/tags/syntax/"/>
     
-      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[iterm2主题配置]]></title>
+    <title>iterm2主题配置</title>
     <link href="http://www.diffroot.com/2015/06/23/iterm2%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     <id>http://www.diffroot.com/2015/06/23/iterm2主题配置/</id>
     <published>2015-06-23T03:53:18.000Z</published>
     <updated>2015-06-23T04:59:40.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="改变iterm的主题">改变iterm的主题</h3><p><strong>Iterm2</strong>，目前几乎所有使用Mac系统的朋友必装的一个终端软件，用来替换系统自带的terminal。</p>
-<p>但是，iterm2自带的主题背景都是深黑色，喜欢颜值的朋友可能会觉得自带的主题在某些场景使用会让视觉非常不舒服，下面我来推荐一款Monokia-Soda主题，整体外观非常漂亮，配置vim的monokia主题简直是绝搭。<br><img src="http://wuwen.org/static/upload/201407111801456.png" alt="monokia-soda"></p>
-<p>主题下载地址：<a href="http://wuwen.org/static/upload/201407111756234.zip" target="_blank" rel="external">Monokia-Soda.itermcolors</a></p>
-]]></content>
+    
+    <content type="html">&lt;p&gt;###改变iterm的主题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Iterm2&lt;/strong&gt;，目前几乎所有使用Mac系统的朋友必装的一个终端软件，用来替换系统自带的terminal。&lt;/p&gt;
+&lt;p&gt;但是，iterm2自带的主题背景都是深黑色，喜欢颜值的朋友可能会觉得自带的主题在某些场景使用会让视觉非常不舒服，下面我来推荐一款Monokia-Soda主题，整体外观非常漂亮，配置vim的monokia主题简直是绝搭。&lt;br&gt;&lt;img src=&quot;http://wuwen.org/static/upload/201407111801456.png&quot; alt=&quot;monokia-soda&quot;&gt;&lt;/p&gt;
+&lt;p&gt;主题下载地址：&lt;a href=&quot;http://wuwen.org/static/upload/201407111756234.zip&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monokia-Soda.itermcolors&lt;/a&gt;&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<h3 id="改变iterm的主题">改变iterm的主题</h3><p><strong>Iterm2</strong>，目前几乎所有使用Mac系统的朋友必装的一个终端软件，用来替换系统自带的terminal。</p>
-<p>但是，iterm2自带的主题背景都是深黑色，喜欢颜值]]>
+    
+      &lt;p&gt;###改变iterm的主题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Iterm2&lt;/strong&gt;，目前几乎所有使用Mac系统的朋友必装的一个终端软件，用来替换系统自带的terminal。&lt;/p&gt;
+&lt;p&gt;但是，iterm2自带的主题背景都是深黑色，喜欢颜值的朋友可能会觉得自带的主题在
+    
     </summary>
+    
+      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="iterm2" scheme="http://www.diffroot.com/tags/iterm2/"/>
     
       <category term="theme" scheme="http://www.diffroot.com/tags/theme/"/>
     
-      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[博客迁移成功]]></title>
+    <title>博客迁移成功</title>
     <link href="http://www.diffroot.com/2015/06/23/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%88%90%E5%8A%9F/"/>
     <id>http://www.diffroot.com/2015/06/23/博客迁移成功/</id>
     <published>2015-06-23T02:29:15.000Z</published>
     <updated>2015-06-23T05:01:11.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="迁移过程和原因">迁移过程和原因</h2><p><strong> Linode </strong>，在使用了一年之后，由于续费的不及时，被无情的关闭，连数据资料都没有来得及备份，心里非常的郁闷，不想再写任何东西了。</p>
-<p>但是，最近在看各种书籍时，发现还是有必要开辟一个地方来记录下当时翻阅资料的内容和心情。</p>
-<p>于是，开始在网上找各种托管的地方，免费空间现在是真不敢尝试了，那些收费的服务质量不好也是不考虑。后来找来找去，想想开始使用gitgub托管吧，虽然不是特别安全，但是胜在本地有同步的备份，以后恢复起来也是比较的方便。</p>
-<p>确定了大的方向后，然后就是寻找各种平台架构，在用2天时间尝试了octopress之后放弃，然后花了半天时间安装了hexo框架，非常成熟的技术。</p>
-<blockquote>
-<p>下一步就是开始慢慢再积累内容咯！</p>
-</blockquote>
-<p><strong>感谢Hexo的作者提供这么好、这么方便的技术！</strong></p>
-]]></content>
+    
+    <content type="html">&lt;h2 id=&quot;迁移过程和原因&quot;&gt;&lt;a href=&quot;#迁移过程和原因&quot; class=&quot;headerlink&quot; title=&quot;迁移过程和原因&quot;&gt;&lt;/a&gt;迁移过程和原因&lt;/h2&gt;&lt;p&gt;&lt;strong&gt; Linode &lt;/strong&gt;，在使用了一年之后，由于续费的不及时，被无情的关闭，连数据资料都没有来得及备份，心里非常的郁闷，不想再写任何东西了。&lt;/p&gt;
+&lt;p&gt;但是，最近在看各种书籍时，发现还是有必要开辟一个地方来记录下当时翻阅资料的内容和心情。&lt;/p&gt;
+&lt;p&gt;于是，开始在网上找各种托管的地方，免费空间现在是真不敢尝试了，那些收费的服务质量不好也是不考虑。后来找来找去，想想开始使用gitgub托管吧，虽然不是特别安全，但是胜在本地有同步的备份，以后恢复起来也是比较的方便。&lt;/p&gt;
+&lt;p&gt;确定了大的方向后，然后就是寻找各种平台架构，在用2天时间尝试了octopress之后放弃，然后花了半天时间安装了hexo框架，非常成熟的技术。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;下一步就是开始慢慢再积累内容咯！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;感谢Hexo的作者提供这么好、这么方便的技术！&lt;/strong&gt;&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<h2 id="迁移过程和原因">迁移过程和原因</h2><p><strong> Linode </strong>，在使用了一年之后，由于续费的不及时，被无情的关闭，连数据资料都没有来得及备份，心里非常的郁闷，不想再写任何东西了。</p>
-<p>但是，最近在看各种书籍时，发现还是]]>
+    
+      &lt;h2 id=&quot;迁移过程和原因&quot;&gt;&lt;a href=&quot;#迁移过程和原因&quot; class=&quot;headerlink&quot; title=&quot;迁移过程和原因&quot;&gt;&lt;/a&gt;迁移过程和原因&lt;/h2&gt;&lt;p&gt;&lt;strong&gt; Linode &lt;/strong&gt;，在使用了一年之后，由于续费的不及时，被无情的关闭
+    
     </summary>
+    
+      <category term="生活" scheme="http://www.diffroot.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
     
       <category term="博客" scheme="http://www.diffroot.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
       <category term="迁移" scheme="http://www.diffroot.com/tags/%E8%BF%81%E7%A7%BB/"/>
     
-      <category term="生活" scheme="http://www.diffroot.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title>Hello World</title>
     <link href="http://www.diffroot.com/2015/06/23/hello-world/"/>
     <id>http://www.diffroot.com/2015/06/23/hello-world/</id>
     <published>2015-06-23T00:53:18.000Z</published>
     <updated>2015-06-23T05:34:30.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+    
     </summary>
+    
+      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="hexo" scheme="http://www.diffroot.com/tags/hexo/"/>
     
       <category term="install" scheme="http://www.diffroot.com/tags/install/"/>
-    
-      <category term="技术" scheme="http://www.diffroot.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
